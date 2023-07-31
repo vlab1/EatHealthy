@@ -1,0 +1,59 @@
+.menu-container {
+  .menu-container-hamburger {
+    position: fixed;
+    margin: 50px;
+    z-index: 2;
+    cursor: pointer;
+
+    .menu-container-hamburger-line {
+      width: 50px;
+      height: 6px;
+      background: #373a47;
+      margin-bottom: 5px;
+    }
+  }
+  .menu-container-menu {
+    width: 320px;
+    height: 100%;
+    background: #373a47;
+    position: fixed;
+    top: 0;
+    left: -320px;
+    transition: left 0.1s;
+
+    .first-child {
+      margin-top: 180px;
+    }
+
+    .menu-container-menu-menu-item {
+      color: #fff;
+      width: 100%;
+      padding: 1rem 3rem;
+      box-sizing: border-box;
+      font-size: 1.5rem;    
+      font-weight: 600;
+   
+    }
+
+    a {
+      text-decoration: inherit;
+    }
+
+    .menu-container-menu-menu-item:hover {
+      background: #a90000;
+      cursor: pointer;
+    }
+
+    .menu-container-menu-menu-item-select {
+      color: #fff;
+      width: 100%;
+      padding: 1rem 1.5rem;
+      box-sizing: border-box;
+      font-size: 1.5rem;    
+      font-weight: 600;
+    }
+
+
+    
+  }
+}

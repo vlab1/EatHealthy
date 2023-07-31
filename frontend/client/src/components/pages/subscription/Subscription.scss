@@ -1,0 +1,52 @@
+.subscription-container{
+
+    .big-text{
+        font-weight: 600;
+        text-align: center;
+        font-size: 40px;
+    }
+    .flex-wrapper{
+        display: flex;
+        justify-content: center;
+
+        .subscription-wrapper{
+            text-align: center;
+            width: 400px;
+            
+            background: linear-gradient(159.32deg, #67ADFF -10.24%, #9AFFE7 102.41%);
+            box-shadow: 4px 4px 0 rgba(dodgerblue, 0.2);
+            border: 3px solid black;
+            .name, .price{
+                margin-top: 20px;
+                font-size: 24px;
+                font-weight: 700;
+            }
+            .emoji{
+                font-size: 60px;
+            }
+            .description{
+                margin-top: 20px;
+                padding-left: 50px;
+                padding-right: 50px;
+                font-weight: 600;
+            }
+            .advantages{
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            li{
+                padding-left: 50px;
+                padding-right: 50px;
+                text-align: left;
+            }
+            button{
+                margin-top: 10px;
+                margin-bottom: 20px;
+            }
+        }
+        .subscription-wrapper + .subscription-wrapper{
+            margin-left: 40px;
+            background: linear-gradient(159.32deg, #FF6767 -10.24%, #FFCB9A 102.41%);
+        }
+    }
+}

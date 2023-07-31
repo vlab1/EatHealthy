@@ -1,0 +1,19 @@
+.register-container {
+  display: grid;
+  gap: 10px;
+  place-items: center;
+
+  .register-container-item.email {
+    width: 400px;
+    left: 0;
+  }
+  .register-container-item.password {
+    width: 400px;
+  }
+
+  .register-container-item.button {
+    .button {
+      margin: calc(var(--spacer) * 2) 0 0 2px;
+    }
+  }
+}

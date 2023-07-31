@@ -1,0 +1,24 @@
+.login-container {
+  display: grid;
+  gap: 10px;
+  place-items: center;
+
+  .login-container-item.email {
+    width: 400px;
+    left: 0;
+  }
+  .login-container-item.password {
+    width: 400px;
+  }
+
+  .login-container-item.button {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    button {
+      width: 150px;
+    }
+  }
+}

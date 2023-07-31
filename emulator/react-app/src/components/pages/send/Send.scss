@@ -1,0 +1,30 @@
+.send-container {
+    .send-container-header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      h1 {
+        font-size: 3em;
+      }
+    }
+
+    .send-container-table-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    
+    .send-container-actions {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 100px;
+
+      .send-container-actions-item-input {
+        width: 500px;
+      }
+    }
+  }
+  

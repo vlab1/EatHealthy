@@ -1,0 +1,12 @@
+body {
+  background: #e4e4e6;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.page {
+  padding: 6rem 3rem;
+  margin: 0;
+}

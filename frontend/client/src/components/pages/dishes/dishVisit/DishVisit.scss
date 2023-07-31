@@ -1,0 +1,40 @@
+.dish-visit-container {
+  width: 1200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  .main-text-dish {
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 0;
+  }
+
+  .flex-wrapper {
+    .imgs-wrapper {
+      background-color: #ffffff6b;
+      box-shadow: inset 0 0 0 2px black, inset 6px 6px 0 rgba(dodgerblue, 0.2),
+        3px 3px 0 rgba(dodgerblue, 0.2);
+    }
+    .contact-wrapper {
+      .text-wrapper {
+        box-shadow: inset 0 0 0 2px black, inset 6px 6px 0 rgba(dodgerblue, 0.2),
+          3px 3px 0 rgba(dodgerblue, 0.2);
+        background-color: #ffffff6b;
+      }
+
+      .address-wrapper {
+        box-shadow: inset 0 0 0 2px black, inset 6px 6px 0 rgba(dodgerblue, 0.2),
+          3px 3px 0 rgba(dodgerblue, 0.2);
+        background-color: #ffffff6b;
+        overflow: auto;
+        height: 93px;
+      }
+
+      .description-wrapper {
+        box-shadow: inset 0 0 0 2px black, inset 6px 6px 0 rgba(dodgerblue, 0.2),
+          3px 3px 0 rgba(dodgerblue, 0.2);
+        background-color: #ffffff6b;
+      }
+    }
+  }
+}

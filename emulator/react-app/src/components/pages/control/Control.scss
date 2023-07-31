@@ -1,0 +1,31 @@
+.control-container {
+  .control-container-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      font-size: 3em;
+    }
+  }
+
+  .control-container-measurements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  .control-container-table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .control-container-delete-measurements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+}

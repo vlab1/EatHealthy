@@ -1,0 +1,61 @@
+.body-payment {
+  text-align: center;
+  .card {
+    background: #373a47;
+    padding: 60px;
+    border-radius: 4px;
+    box-shadow: 0 2px 3px #c8d0d8;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 15vh;
+
+    .card-content {
+      display: grid;
+      gap: 10px;
+      place-items: center;
+      width: 450px;
+      height: 450px;
+      .h1-success {
+        color: #88b04b;
+
+        font-weight: 900;
+        font-size: 40px;
+        margin-bottom: 10px;
+      }
+      .p-success {
+        color: #ffffff;
+        font-size: 20px;
+        margin: 0;
+      }
+      .i-success {
+        color: #9abc66;
+        font-size: 100px;
+        line-height: 200px;
+        margin-left: -15px;
+      }
+
+      .h1-canceled {
+        color: #b04b4b;
+        font-weight: 900;
+        font-size: 40px;
+        margin-bottom: 10px;
+      }
+      .p-canceled {
+        color: #ffffff;
+        font-size: 20px;
+        margin: 0;
+      }
+      .i-canceled {
+        color: #bc6666;
+        font-size: 100px;
+        line-height: 200px;
+        margin-left: -15px;
+      }
+      a {
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: #c3c1ff;
+      }
+    }
+  }
+}

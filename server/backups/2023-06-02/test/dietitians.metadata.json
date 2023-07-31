@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"e607a3cb619e4a7ca01d48a8c8ee3381","collectionName":"dietitians","type":"collection"}

@@ -1,0 +1,42 @@
+.settings-container {
+  .settings-container-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      font-size: 3em;
+    }
+  }
+
+  .settings-container-inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    margin: 4rem 100px 0px 100px;
+    .settings-container-inputs-group {
+      display: grid;
+      gap: 4rem;
+
+      .settings-container-inputs-inner-group {
+        display: grid;
+        gap: 2rem;
+        .settings-container-inputs-inner-group-item {
+        }
+      }
+    }
+  }
+
+  .settings-container-action-button {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .settings-container-textarea {
+    margin: 4rem 100px 0px 100px;
+  }
+}

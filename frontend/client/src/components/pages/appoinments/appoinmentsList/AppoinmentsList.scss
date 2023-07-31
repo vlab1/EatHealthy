@@ -1,0 +1,109 @@
+.appoinment-list-container {
+  .appoinment-list-container-content-section-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    input {
+      width: 75vw;
+    }
+  }
+
+  .my-appointments {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    width: 100%;
+    width: 74.8vw;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid transparent;
+    border-radius: 0;
+    background-color: transparent;
+    box-shadow: inset 0 0 0 2px black, inset 6px 6px 0 rgba(dodgerblue, 0.2),
+      3px 3px 0 rgba(dodgerblue, 0.2);
+
+    align-items: center;
+    .bold {
+      font-weight: 900;
+    }
+    .id {
+      padding-left: 10px;
+      padding-right: 10px;
+      width: 210px;
+    }
+    .email {
+      padding-left: 10px;
+      padding-right: 10px;
+      width: 230px;
+    }
+    .phone {
+      padding-left: 10px;
+      padding-right: 10px;
+      width: 140px;
+    }
+    .name {
+      padding-left: 10px;
+      padding-right: 10px;
+      width: 200px;
+    }
+    .date {
+      padding-left: 10px;
+      padding-right: 10px;
+      width: 200px;
+    }
+    .birth_date {
+      padding-left: 10px;
+      padding-right: 10px;
+      width: 100px;
+    }
+    .age {
+      padding-left: 10px;
+      padding-right: 10px;
+      width: 100px;
+    }
+    .sex {
+      padding-left: 10px;
+      padding-right: 10px;
+      width: 100px;
+    }
+    .btn {
+      margin-right: 30px;
+    }
+    --bgColor: white;
+    --inputColorStandart: black;
+    --outlineColor: dodgerblue;
+    --spacer: 1rem;
+    --inputColorCancel: #a90000;
+
+    .btn {
+      font-size: 1.5rem;
+      font-family: monospace;
+
+      &:focus {
+        outline: 3px solid var(--outlineColor);
+        outline-offset: 2px;
+      }
+
+      &::-moz-focus-inner {
+        border: none;
+      }
+    }
+    .btn {
+      border: none;
+    }
+
+    .btn {
+      cursor: pointer;
+
+      padding: 0.75rem 1.25rem;
+      color: var(--bgColor);
+      background-color: #0079a9;
+      box-shadow: 4px 4px 0 rgba(dodgerblue, 0.2);
+      border: 3px solid black;
+      &:active {
+        transform: translateY(1px);
+      }
+    }
+  }
+}

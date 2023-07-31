@@ -1,0 +1,31 @@
+.authentication-container {
+  display: grid;
+  place-items: center;
+  height: 80vh;
+  .authentication-container-item {
+    .action-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      p {
+        font-size: 15px;
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+      }
+      a:hover {
+        color: rgb(85, 85, 85);
+      }
+    }
+  }
+  .authentication-container-item.login {
+  }
+
+  .display-none {
+    display: none;
+  }
+
+  .authentication-container-item.register {
+  }
+}

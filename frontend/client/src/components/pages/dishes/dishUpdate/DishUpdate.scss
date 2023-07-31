@@ -1,0 +1,39 @@
+.dish-container-content-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .dish-container-content-section-header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .dish-container-content-section-container-with-rows {
+      width: 125vh;
+      .dish-container-content-section-container-rows {
+        display: grid;
+        row-gap: 2rem;
+        .uploader-files {
+          p {
+            font-size: 1.5rem;
+          }
+        }
+      }
+  
+      .subnavigation-container-content-section-container-with-columns {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 5rem;
+      }
+      .dish-container-content-section-container-rows-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  
+        .button {
+          margin: calc(var(--spacer) * 2) 0 0 2px;
+        }
+      }
+    }
+  }
+  

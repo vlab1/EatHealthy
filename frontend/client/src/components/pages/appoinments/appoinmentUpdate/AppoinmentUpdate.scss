@@ -1,0 +1,82 @@
+.appoinment-update-container {
+  .appoinment-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .error-appoinment {
+      color: #a90000;
+    }
+  }
+
+  .appoinment-menu {
+    .appoinment-container-with-columns {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 5rem;
+      margin: 50px 50px 50px 50px;
+      .appoinment-container-column {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        
+        .visit-label {
+          
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: auto;
+          margin-bottom: auto;
+          a {
+            margin-top: 40px;
+            font-size: 2em;
+            cursor: pointer;
+            text-decoration: none;
+            color: black
+          }
+
+          a:hover {
+            color: rgb(54, 54, 54);
+          }
+        }
+      }
+      .appoinment-current-dishes{
+        grid-column: span 2;
+      }
+
+      .appoinment-unloaded-dishes-container {
+        grid-column: span 2;
+      }
+
+      .appoinment-unloaded-dishes-container {
+        margin-top: 20px;
+      }
+
+      .appoinment-column.button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-column: span 2;
+        .button {
+          margin: calc(var(--spacer) * 2) 0 0 2px;
+        }
+      }
+
+      .appoinment-textarea {
+        margin-top: 2rem;
+        grid-column: span 2;
+      }
+
+      .appoinment-unload {
+        .button {
+          margin: calc(var(--spacer) * 2) 0 0 2px;
+        }
+      }
+
+      .appoinment-medical-table {
+        margin-top: 2rem;
+        grid-column: span 2;
+      }
+    }
+  }
+}

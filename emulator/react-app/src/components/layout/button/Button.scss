@@ -1,0 +1,49 @@
+.button-container {
+    --bgColor: white;
+    --inputColorStandart: black;
+    --outlineColor: dodgerblue;
+    --spacer: 1rem;
+    --inputColorCancel: #a90000;
+
+  .save {
+    color: var(--inputColorStandart);
+    background-color: var(--inputColorStandart);
+  }
+
+  .cancel {
+    color: var(--inputColorCancel);
+    background-color: var(--inputColorCancel);
+  }
+
+  .button {
+    width: 10rem;
+    font-size: 1.5rem;
+    font-family: monospace;
+
+
+    &:focus {
+      outline: 3px solid var(--outlineColor);
+      outline-offset: 2px;
+    }
+
+    &::-moz-focus-inner {
+      border: none;
+    }
+  }
+  .button {
+    border: none;
+  }
+
+  .button {
+    cursor: pointer;
+    margin: calc(var(--spacer) * 2) 0 0 2px;
+    padding: 0.75rem 1.25rem;
+    color: var(--bgColor);
+
+    box-shadow: 4px 4px 0 rgba(dodgerblue, 0.2);
+
+    &:active {
+      transform: translateY(1px);
+    }
+  }
+}
